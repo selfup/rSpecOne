@@ -1,8 +1,4 @@
 class RailsHelper
-  def initialize
-    @rails_helper = rails_helper
-  end
-
   def rails_helper
 "ENV['RAILS_ENV'] ||= 'test'\n" +
 

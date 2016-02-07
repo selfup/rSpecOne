@@ -1,8 +1,4 @@
 class GemFile
-  def initialize
-    @gemfile = rspec_gemfile
-  end
-
   def rspec_gemfile
 "
 source 'https://rubygems.org'

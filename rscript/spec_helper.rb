@@ -1,8 +1,4 @@
 class SpecHelper
-  def initialize
-    @spec_helper = spec_helper
-  end
-
   def spec_helper
 "
 require 'capybara'

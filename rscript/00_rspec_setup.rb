@@ -6,9 +6,9 @@ class RspecInstall
   attr_reader :gemfile, :rails_helper, :spec_helper
 
   def initialize
-    @gemfile = GemFile.new
-    @rails_helper = RailsHelper.new
-    @spec_helper = RailsHelper.new
+    @gemfile = GemFile.new.rspec_gemfile
+    @rails_helper = RailsHelper.new.rails_helper
+    @spec_helper = SpecHelper.new.spec_helper
     @init = init
   end
 
